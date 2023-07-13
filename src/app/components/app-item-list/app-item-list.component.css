@@ -1,0 +1,27 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .item-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-cost {
+    font-style: italic;
+  }
+  
